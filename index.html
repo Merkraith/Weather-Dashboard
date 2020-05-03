@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <nav class="navbar bg-primary" id="navbar">
+        <span class="navbar-text">
+            Weather Dashboard
+        </span>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-4">
+                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-body">
+                        <p>Enter in a city to get realtime weather data</p>
+                        <label for="search">Search City</label>
+                        <input type="text" class="form-controlmr-sm-2" id="city-input">
+                        <a class="btn btn-dark btn-lg" id="search-button" href="#" role="button">Search</a>
+
+                        <!-- Div for stored cities to append to -->
+                        <div class="stored-cities"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8">
+                <div class="card text-white bg-primary" id="current-city">
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fiveday">
+
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

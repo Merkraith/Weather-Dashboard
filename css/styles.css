@@ -1,0 +1,24 @@
+#search-button {
+    margin-top: 10px;
+}
+
+#current-city {
+    border-radius: 5px;
+    border: 1px;
+    border-color: black;
+}
+
+.navbar-text {
+    align-self: center;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* .city-button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+} */
