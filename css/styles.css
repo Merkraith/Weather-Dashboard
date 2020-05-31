@@ -1,24 +1,88 @@
 #search-button {
-    margin-top: 10px;
+    margin-top: -3px;
+    margin-left: 5px;
 }
 
+body {
+    background-image: url("../images/weatherbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
 #current-city {
+    background-color: mediumblue;
     border-radius: 5px;
     border: 1px;
     border-color: black;
+    font-size: px;
+    font-family: Blinker;
+}
+
+#city-search-card {
+    background-color: mediumblue;
+}
+
+.list-group-item {
+    background-color: mediumblue;
+}
+
+.city-button {
+    color: white;
+    background-color: mediumblue;
+    border: 2px;
+    border-color: white;
+    border-radius: 5px;
 }
 
 .navbar-text {
-    align-self: center;
+    color: white;
+    font-family: Audiowide;
     font-size: 60px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar {
+    background-color: midnightblue;
+}
+
+h1 {
+    font-family: Blinker;
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+p {
+    font-family: Blinker;
+    font-size: 18px;
+    margin-top: 5px;
 }
 
 .container {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
-/* .city-button {
+img {
+    width: 75px;
+    height: 75px;
+}
+
+.city-display {S
+    font-size: 18px;
+    font-family: 
+}
+
+#uv-index {
+    max-width: 50%;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.card {
     margin-top: 5px;
     margin-bottom: 5px;
-} */
+    margin-left: 5px;
+    margin-right: 5px;
+    opacity: 75%;
+}
