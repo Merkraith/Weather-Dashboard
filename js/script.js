@@ -7,6 +7,8 @@ $(document).ready(function () {
 
     $("#search-button").click(function (event) {
         event.preventDefault();
+        $("#current-city").empty();
+        $("#five-day").empty();
 
         let searchTerm = $("#city-input").val().trim();
         clickSearch(searchTerm);
@@ -99,6 +101,7 @@ $(document).ready(function () {
                 // for loop for creating 5 cards for a 5 day forecast
                 // let  = response5Day.daily;
                 for (let i = 1; i < 6; i++) {
+
                     let fiveDayElement = $("<div class='card bg-primary' style = width: 10rem; margin: 10px;'>")
                     let fiveDayDate = responseFiveDay.daily[i].dt;
                     let date = fiveDayDate;
@@ -117,12 +120,15 @@ $(document).ready(function () {
                     fiveDayCard.append(fiveDayHumEl);
                     fiveDayElement.append(fiveDayCard);
                     $("#five-day").append(fiveDayElement);
+                    
                 }
             });
 
         });
     }
     $(document).on("click", ".city-button", function () {
+        $("#current-city").empty();
+        $("#five-day").empty();
         JSON.parse(localStorage.getItem("cities"));
         let citySearch = $(this).text();
         clickSearch(citySearch);
