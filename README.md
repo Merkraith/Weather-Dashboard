@@ -4,8 +4,6 @@
 
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
 
-https://merkraith.github.io/Weather-Dashboard/
-
 
 # Title:  Weather Dashboard
 
@@ -24,7 +22,9 @@ https://merkraith.github.io/Weather-Dashboard/
   Just need a web browswer installed with internet connection
 
 ## Usage
-  Click on the given web link, the user enters in a city of their choice into the search form then clicks the search button.  After that results are displayed, and the city searched is displayed as a button.  When another city is searched, it is saved as a button too and when buttons are clicked, they will display that city weather data again.
+  Click on this link:  https://merkraith.github.io/Weather-Dashboard/
+
+  The user enters in a city of their choice into the search form then clicks the search button.  After that results are displayed, and the city searched is displayed as a button.  When another city is searched, it is saved as a button too and when buttons are clicked, they will display that city weather data again.
 
 ## Licencse
   No licences
