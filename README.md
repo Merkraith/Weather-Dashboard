@@ -22,18 +22,13 @@
   Just need a web browswer installed with internet connection
 
 ## Usage
-  Click on this link:  https://merkraith.github.io/Weather-Dashboard/
+### Deployed Site: https://merkraith.github.io/Weather-Dashboard/
 
   The user enters in a city of their choice into the search form then clicks the search button.  After that results are displayed, and the city searched is displayed as a button.  When another city is searched, it is saved as a button too and when buttons are clicked, they will display that city weather data again.
 
-## Licencse
-  No licences
+## Screenshot
 
-## Contributing
-  No one else contributed
-
-## Tests
-  No tests
+![weatherdbss](/images/weatherdbss.png)
 
 # Author: Merkraith
 
