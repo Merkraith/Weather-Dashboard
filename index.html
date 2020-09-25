@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 git
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,47 +23,41 @@ git
 
     <div class="container">
         <div class="row justify-content-center">
-
             <div class="col-4">
                 <div class="card text-white mb-3" id="city-search-card">
                     <div class="card-body">
                         <h4>Enter in a city to get realtime weather data</h4>
-
                         <!-- city search form -->
                         <form class='navbar-form'>
                             <div class='input-group'>
                                 <input class='form-control' id="city-input" type='text' name='search'
-                                    placeholder='Search City'/>
-                                    <span class="input-group-btn">
-                                        <a class="btn btn-dark btn-
-                                        
-                                        lg" id="search-button" role="button">Search</a>
-                                    </span>
-                            </div>
-                            <!-- city search button -->
-                            <!-- <div>
-                                <span class="input-group-btn">
-                                    <a class="btn btn-dark btn-lg" id="search-button" role="button">Search</a>
-                                </span>
-                            </div> -->
-                        </form>
+                                    placeholder='Search City' />
 
+                                <!-- city search button -->
+                                <span class="input-group-btn">
+                                    <a class="btn btn-dark btn-  
+                                        lg" id="search-button" role="button">Search</a>
+                                </span>
+                            </div>
+                        </form>
                         <!-- div that searched cities will appear into as buttons -->
                         <div class="stored-cities"></div>
                     </div>
                 </div>
             </div>
-
-            <!-- Card for current city weather data -->
-            <div class="col-6">
-                <div class="card text-white" id="current-city">
-                </div>
+            <div class="col-8">
+                <row>
+                    <!-- Card for current city weather data -->
+                    <div class="card text-white" id="current-city"></div>
+                </row>
+                <row>
+                    <!-- div for 5 day cards appear into -->
+                    <div class="row justify-content-center" id="five-day">
+                </row>
             </div>
         </div>
     </div>
 
-    <!-- div for 5 day cards appear into -->
-    <div class="row justify-content-center" id="five-day">
 
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

@@ -23,6 +23,7 @@ $(document).ready(function () {
 
         // creating buttons of every city search
         $(`<button class="city-button">`).appendTo(".stored-cities").prepend(searchTerm);
+
         // ajax call for local weather
         $.ajax({
             type: "GET",
@@ -102,6 +103,8 @@ $(document).ready(function () {
                 // let  = response5Day.daily;
                 for (let i = 1; i < 6; i++) {
 
+                    
+
                     let fiveDayElement = $("<div class='card bg-primary' style = width: 10rem; margin: 10px;'>")
                     let fiveDayDate = responseFiveDay.daily[i].dt;
                     let date = fiveDayDate;
@@ -126,6 +129,7 @@ $(document).ready(function () {
 
         });
     }
+    
     $(document).on("click", ".city-button", function () {
         $("#current-city").empty();
         $("#five-day").empty();
